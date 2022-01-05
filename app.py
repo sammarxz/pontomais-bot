@@ -1,4 +1,3 @@
-import sys
 import time
 import datetime
 from decouple import config
@@ -59,7 +58,6 @@ class PontoMais:
   def quit(self):
     self.driver.close()
     self.driver.quit()
-    sys.exit()
 
 
 try:
